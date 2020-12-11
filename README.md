@@ -1,11 +1,11 @@
-# clog
+#plogs 
 彩色日志，文件夹下自动生成log日志目录，根据运行的文件命名log名称,生成json日志，exception log
 
 安装方法：
 pip install plogs
 
 demo:
-
+```python3
 import plogs
 
 log = plogs.logger
@@ -27,3 +27,4 @@ exception Exception as e:
 log_json('这是一条json日志格式')
 
 log.debug('所有日志内容输出在了屏幕，和你执行目录下面的log 文件夹。 文件名是你的程序名')
+```
