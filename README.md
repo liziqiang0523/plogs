@@ -1,10 +1,10 @@
-#plogs 
+# plogs 
 彩色日志，文件夹下自动生成log日志目录，根据运行的文件命名log名称,生成json日志，exception log
 
 安装方法：
 pip install plogs
 
-##pip3 install plogs==1.8 -i https://pypi.python.org/simple
+## pip3 install plogs==1.8 -i https://pypi.python.org/simple
 
 demo:
 ```python3
