@@ -6,7 +6,7 @@ import time
 import logging
 import os
 import sys
-from . import logzero
+import logzero 
 
 '''
 日志工具
@@ -32,5 +32,4 @@ logzero.formatter(formatter)
 logger = logzero.setup_logger(name='log',logfile=log_file,level=logging.DEBUG,formatter=formatter)
 #得到一个json格式日志对象
 logger_json = logzero.setup_logger(name='json_log',logfile=log_file,level=logging.DEBUG,formatter=formatter,json=True)
-
-
+logger.debug('test')

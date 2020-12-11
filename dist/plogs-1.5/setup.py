@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
  
 setup(
     name='plogs',  # 打包后的包文件名
-    version='1.8',    #版本号
+    version='1.5',    #版本号
     keywords=["pip", "plogs"],    # 关键字
     description='pretty log',  # 说明
     long_description="彩色日志，文件夹下自动生成log日志目录，根据运行的文件命名log名称,json 日志",  #详细说明

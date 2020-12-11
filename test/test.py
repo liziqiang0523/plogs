@@ -1,3 +1,3 @@
 from plogs import plogs
-log = plogs.Logger()
+log = plogs.logger
 log.info('test')

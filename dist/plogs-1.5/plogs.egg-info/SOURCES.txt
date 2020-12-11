@@ -1,6 +1,8 @@
 README.md
 setup.py
 plogs/__init__.py
+plogs/plogs.py
+plogs/test.py
 plogs.egg-info/PKG-INFO
 plogs.egg-info/SOURCES.txt
 plogs.egg-info/dependency_links.txt

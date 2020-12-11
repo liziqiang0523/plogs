@@ -6,7 +6,7 @@ import time
 import logging
 import os
 import sys
-from . import logzero
+import logzero
 
 '''
 日志工具
