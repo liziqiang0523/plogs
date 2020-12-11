@@ -3,7 +3,8 @@
 
 安装方法：
 pip install plogs
-pip3 install plogs==1.8 -i https://pypi.python.org/simple
+
+##pip3 install plogs==1.8 -i https://pypi.python.org/simple
 
 demo:
 ```python3
