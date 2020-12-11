@@ -20,11 +20,11 @@ log.error('这是一条error日志')
 
 try:
    b = 1 + a 
-exception Exception as e:
+except Exception as e:
     log.exception(e)
 
 
-log_json('这是一条json日志格式')
+log_json.debug('这是一条json日志格式')
 
 log.debug('所有日志内容输出在了屏幕，和你执行目录下面的log 文件夹。 文件名是你的程序名')
 ```
