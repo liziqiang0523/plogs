@@ -9,14 +9,24 @@ pip install plogs
 demo:
 ```python3
 ``python3
-import plogs
+#import plogs
+from plogs import logger
+logger.debug('这是一条debug日志')
+logger.info('这是一条info日志')
+logger.warning('这是一条warning日志')
+logger.error('这是一条error日志')
 
 
 
 
-        from plogs import setup_logger
-        logger = setup_logger()
-        logger.info("hello")
+
+
+
+##more:
+
+from plogs import setup_logger
+logger = setup_logger()
+logger.info("hello")
 
 log = plogs.logger
 
